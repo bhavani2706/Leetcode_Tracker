@@ -1,0 +1,10 @@
+// Last updated: 09/07/2026, 09:49:19
+class Solution {
+    public int addDigits(int n) {
+        if (n == 0) 
+        return 0;
+
+else
+ return 1+ (n - 1) % 9;
+    }
+}
